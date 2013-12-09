@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_u8951,$(TARGET_PRODUCT))
+ifeq (pac_u8665,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
