@@ -24,7 +24,7 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/huawei/u8665/cm.mk)
  
-PRODUCT_NAME := pac_u8951
+PRODUCT_NAME := pac_u8665
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
